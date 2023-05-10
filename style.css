@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+@font-face {
+  font-family: "DMSerif";
+  src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+* {
+font-family: Inter, sans-serif;
+margin : 0;
+padding: 5px;
+box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(37, 37, 37);
+    color: rgb(216, 214, 214);
+}
+nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.header-right {
+    width: 50%;
+}
+
+#modem {
+    width: 100%;
+}
