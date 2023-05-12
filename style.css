@@ -23,7 +23,7 @@ p {
 body {
     min-height: 100vh;
     background: rgb(37, 37, 37);
-    color: rgb(216, 214, 214);
+    color: white;
 }
 nav {
     display : flex;
@@ -48,12 +48,73 @@ nav ul {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    align-items: center;
 }
 
 .header-right {
     width: 50%;
 }
 
+.header-left h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.header-left h3 {
+    font-size: 1.8rem;
+    color: #474dff;
+}
+
+.infos {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px 5px;
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.infos-left{
+    width: 33%;
+}
+.infos-left h3 {
+    font-size: 1rem;
+}
+
+.btn-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 90%;
+  
+}
+.infos-right{
+    width: 67%;
+}
+.investors{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.img-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-container img{
+    height: 60px;
+    
+}
+
+button {
+    border-radius: 10px;
+    width: 20vh;
+    padding: 8px 8px;
+    background-color:#474dff;
+    color: white;
+}
 #modem {
     width: 100%;
 }
